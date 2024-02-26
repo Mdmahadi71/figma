@@ -1,0 +1,83 @@
+
+.footer_main{
+    padding-top: 100px ;
+    background-color: #1C1E53;
+}
+.footer_icons{
+    color: #ffffff;
+}
+.emai_part{
+    display: flex;
+    text-align: center;
+    background-color: #FCD980;
+    margin-top: 50px;
+}
+.two_e{
+    padding-left: 20px;
+}
+.one_e h4,
+.two_e h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.mahadi{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.one_e p,
+.two_e p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.footer_iner p ,
+.secnd_iner p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #F4F6FC;
+    margin-top: 20px;
+}
+.footer_manu{
+    background-color: #F4F6FC;
+}
+.footer_manus{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer_manus ul li {
+    margin: 15px;
+    padding: 10px;
+}
+.footer_manus ul li a{
+    color: #1C1E53;
+}
+.ftr a{
+    margin: 20px 20px;
+    color: #1C1E53;
+}
+.ftr a:hover{
+    color: hotpink;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+@media(min-width:576px) and (max-width:767px){
+    .footer_manus ul li {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}

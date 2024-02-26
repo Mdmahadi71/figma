@@ -1,0 +1,45 @@
+.tog_main{
+    padding: 100px 0;
+}
+.tog_text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.tog_text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.tog_btn a{
+    border: 1px solid #FCD980;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #282938;
+}
+.tog_btn a:hover{
+    background-color: #FCD980;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+
+@media(max-width:575px){
+    .tog_text h2 {
+        font-size: 39px;
+        line-height: 59px;
+    }
+}

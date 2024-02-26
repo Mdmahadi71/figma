@@ -1,0 +1,10 @@
+.qustion_main{
+    padding: 100px 0;
+}
+
+
+@media(max-width:575px){
+    .qustion_main {
+        padding: 50px 0;
+    }
+}

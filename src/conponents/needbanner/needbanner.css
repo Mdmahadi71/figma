@@ -1,0 +1,117 @@
+
+.need_main{
+    padding: 100px 0;
+    background-color: #1C1E53;
+}
+.need_part_one h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #F4F6FC;
+}
+.need_part_one p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #F4F6FC;
+}
+.need_btn a{
+    border: 1px solid #ffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #F4F6FC;
+}
+.need_btn a:hover{
+    background-color: #FCD980;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    color: #1C1E53;
+}
+.need_btn{
+    margin-top: 20px;
+}
+.need_last{
+    padding: 70px 0;
+}
+
+
+
+@media(max-width:575px){
+    .need_main {
+        padding: 48px 0;
+    }
+    .need_part_one h2 {
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .need_btn {
+        margin: 30px 0;
+    }
+    .need_last {
+        padding: 24px 0;
+    }
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+    .need_part_one h2 {
+        font-size: 45px;
+        line-height: 64px;
+    }
+    .need_part_one p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .need_btn a {
+        padding: 9px 12px;
+    }
+    .need_img{
+        padding-top: 25px;
+    }
+    .benefit_part_one h2 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .benefit_main {
+        padding: 20px 0;
+    }
+    .banefit_box_prt{
+        margin:20px 0;
+    }
+    .agencis_main {
+        padding: 50px 0;
+    }
+    .agen_prt_main h2 {
+        font-size: 29px;
+        line-height: 48px;
+    }
+    .revis_text h2 {
+        font-size: 33px;
+        line-height: 49px;
+    }
+    .prio_text h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .delivary_text h2 {
+        font-size: 27px;
+        line-height: 50px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .need_img{
+        padding-top: 25px;
+    }
+    .banefit_box_prt{
+        margin: 20px 0;
+    }
+}

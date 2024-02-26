@@ -1,0 +1,26 @@
+.frequen_main{
+    padding: 100px 0;
+}
+
+
+.part_freq h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+.part_freq p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+
+
+@media(max-width:575px){
+    .frequen_main {
+        padding: 50px 0;
+    }
+}

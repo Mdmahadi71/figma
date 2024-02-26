@@ -1,0 +1,58 @@
+.enviro_main{
+    padding: 100px 0;
+}
+.env_first_text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.env_first_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.env_last_text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #282938;
+}
+.env_last_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+.env_last_text li{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    list-style: disc !important;
+}
+
+@media(max-width:575px){
+    .enviro_main {
+        padding: 50px 0;
+    }
+    .env_first_text h2 {
+        font-size: 33px;
+        line-height: 53px;
+    }
+    .env_last_text h3 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+    .env_last_text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,49 @@
+.privacy_main{
+    padding: 100px 0;
+}
+.priv_first_text h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 48pz;
+    line-height: 64px;
+    font-weight: 600;
+}
+.priv_first_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.privac_text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    line-height: 65px;
+    font-weight: 500;
+}
+.privac_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.privac_text li{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    list-style: disc !important;
+}
+
+
+@media(max-width:575px){
+    .privacy_main {
+        padding: 46px 0;
+    }
+    .privac_text h3 {
+        font-size: 33px;
+        line-height: 55px;
+    }
+    .privac_text p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,24 @@
+.solvepart_main{
+    padding: 100px 0;
+}
+.solve_part_one h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #282938;
+}
+.solve_part_one h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+}
+.solve_part_one p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}

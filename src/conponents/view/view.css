@@ -1,0 +1,298 @@
+.view_part_two{
+    margin: 10px 0;
+}
+.viewall{
+    padding: 100px 0;
+}
+
+.view_fast_img{
+    position: relative;
+}
+.overlaya{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1c1e53c5;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.view_fast_img:hover .overlaya{
+    width: 100%;
+}
+.view_test{
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    width: 40%;
+    opacity: 0;
+}
+.view_fast_img:hover .view_test{
+    opacity: 1;
+}
+.view_test h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffffff;
+}
+.view_test a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.view_test a:hover{
+    border: 1px solid #F4F6FC !important;
+    padding: 16px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    background-color: #FCD980 !important;
+    color: black;
+}
+.view_two {
+    position: relative;
+}
+.overlaya{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1c1e53c5;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.view_two:hover .overlaya{
+    width: 100%;
+}
+.last_over{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 50%;
+    opacity: 0;
+}
+.view_part_two:hover .last_over{
+    opacity: 1;
+}
+.last_over h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffffff;
+}
+.view_aasd h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.last_over a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.last_over a:hover{
+    border: 1px solid #F4F6FC !important;
+    padding: 10px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    background-color: #FCD980 !important;
+    color: black;
+}
+.view_inner a{
+    padding: 10px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.view_inner a:hover{
+    background-color: #FCD980;
+    color: black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+
+
+@media(max-width:575px){
+    .view_test{
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        width: 50%;
+        opacity: 0;
+    }
+    .last_over h3 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .view_test h3 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .view_test a:hover{
+        padding: 8px 12px;
+
+     }
+     .view_aasd h3 {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .viewall {
+        padding: 50px 0;
+    }
+}
+
+
+
+@media(min-width:576px) and (max-width:767px){
+    .view_test{
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
+        width: 40%;
+        opacity: 0;
+    }
+    .view_test h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffffff;
+    }
+    .view_test a:hover{
+        border: 1px solid #F4F6FC !important;
+        padding: 8px 13px;
+    }
+    .work_btn a {
+        padding: 10px 10px;
+    }
+    .view_test a{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .last_over{
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 60%;
+        opacity: 0;
+    }
+    .last_over h3{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #ffffffff;
+    }
+    .last_over a{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .last_over a:hover{
+        border: 1px solid #F4F6FC !important;
+        padding: 7px 10px;
+    
+    }
+    .view_fast_img{
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .view_test{
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
+        width: 40%;
+        opacity: 0;
+    }
+    .view_test h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #ffffffff;
+    }
+    .view_test a:hover{
+        border: 1px solid #F4F6FC !important;
+        padding: 8px 13px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        background-color: #FCD980 !important;
+    }
+    .view_test a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .last_over{
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: 60%;
+        opacity: 0;
+    }
+    .last_over h3{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .last_over a{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .last_over a:hover{
+        border: 1px solid #F4F6FC !important;
+        padding: 7px 10px;
+    
+    }
+}

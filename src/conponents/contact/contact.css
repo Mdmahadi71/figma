@@ -1,0 +1,142 @@
+
+.contact_main{
+    padding: 100px 0;
+}
+
+
+.contact_first_text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.contact_first_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+.submit_button{
+    margin-top: 50px;
+}
+.submit_button form input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: black;
+    color: #F4F6FC;
+    box-sizing: border-box;
+}
+.submit_button form input:hover{
+    background-color:  #FCD980;
+    color: black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.mmm{
+    padding: 30px 0;
+}
+#message{
+    padding: 50px  295px;
+    background-color: #F4F6FC;
+}
+
+#name{
+    padding: 15px 70px;
+    background-color: #F4F6FC;
+}
+
+.contact_all{
+    background-color: #F4F6FC;
+    padding: 50px 0;
+}
+.submit_button{
+    margin-top: 30px;
+    padding-left: 225px;
+}
+.submit_button input{
+    padding: 20px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #1C1E53;
+    color: #ffffff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.submit_button input:hover{
+    background-color: #FCD980;
+    color: #1C1E53;
+}
+
+@media(max-width:575px){
+    .amet h3 {
+        font-size: 42px;
+        line-height: 64px;
+    }
+    .amet p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #message {
+        padding: 36px 60px;
+    }
+    .submit_button input {
+        padding: 17px 19px;
+    }
+    .submit_button {
+        margin-top: 15px;
+        padding-left: 91px;
+    }
+    .contact_all{
+        background-color: #F4F6FC;
+        padding: 25px 0;
+    }
+    #name {
+        padding: 15px 59px;
+        background-color: #F4F6FC;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+
+    .amet h3 {
+        font-size: 47px;
+        line-height: 50px;
+    }
+    #message {
+        padding: 43px 131px;
+    }
+    .submit_button {
+        margin-top: 30px;
+        padding-left: 176px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+
+
+    #name {
+        padding: 12px 20px;
+    }
+    #message {
+        padding: 43px 141px;
+    }
+    .submit_button {
+        margin-top: 30px;
+        padding-left: 289px;
+    }
+}

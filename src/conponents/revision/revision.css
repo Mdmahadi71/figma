@@ -1,0 +1,26 @@
+.revison_main{
+    padding-bottom: 100px;
+    background-color: 
+    #F4F6FC;
+}
+.revis_text h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+.revis_text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #232536;
+    font-size: 38px;
+    line-height: 56px;
+}
+.revis_text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
